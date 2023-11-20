@@ -1,0 +1,78 @@
+.addtask__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background: var(--gray-400);
+    gap: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-500);
+    min-height: 72px;
+
+}
+
+.addtask__content span {
+    flex: 1;
+    font-size: 0.875rem;
+    font-weight: 400;
+    background: transparent;
+    border-style: none;
+    line-height: 1.4;
+    margin-top: -0.1rem;
+    color: var(--gray-100);
+}
+
+.addtask__content button:first-child {
+    height: 1rem;
+    width: 1rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: 1px solid var(--blue-200);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.addtask__content button:first-child:hover {
+    outline: 1px solid var(--blue-500);
+
+}
+
+.addtask__content button:last-child {
+    background: transparent;
+    border: none;
+    line-height: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.addtask__content button:last-child:hover {
+    color: var(--red-500);
+}
+
+.textDecoration-throught {
+    text-decoration: line-through;
+}
+
+
+.showChecked {
+    color: var(--gray-100);
+    font-size: 0.8rem;
+    line-height: 0;
+    padding: 0.1rem;
+    border-radius: 50%;
+    background: var(--purple-200);
+    transition: 0.1s;
+}
+
+.showChecked:hover {
+    background: var(--purple-500);
+}
+
+.doNotshow {
+    visibility: hidden;
+
+}

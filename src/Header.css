@@ -1,0 +1,36 @@
+.header__header{
+    background: var(--gray-700);
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header__logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.header__header img{
+    height: 2.25rem;
+}
+
+.header__header strong, span{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 0.4rem;
+    font-family: var(--font-family);
+}
+
+.header__header strong{
+    color: var(--blue-200);
+    margin-left: 0.75rem;
+}
+
+.header__header span{
+    color: var(--purple-500);
+}
